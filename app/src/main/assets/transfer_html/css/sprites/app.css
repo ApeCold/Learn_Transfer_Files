@@ -1,0 +1,61 @@
+/* glue: 0.11.1 hash: 79c4629abf */
+        .sprite-app-drag,
+.sprite-app-drag-active,
+.sprite-app-logo,
+.sprite-app-empty,
+.sprite-app-phone,
+.sprite-app-add {
+            background-image: url('../../images/sprites/app.png');
+            background-repeat: no-repeat;
+        }
+        
+        .sprite-app-drag {
+            background-position: 0 0;
+            width: 200px;
+            height: 344px;
+        }
+        
+        .sprite-app-drag-active {
+            background-position: -200px 0;
+            width: 200px;
+            height: 344px;
+        }
+        
+        .sprite-app-logo {
+            background-position: 0 -344px;
+            width: 174px;
+            height: 36px;
+        }
+        
+        .sprite-app-empty {
+            background-position: -400px 0;
+            width: 113px;
+            height: 140px;
+        }
+        
+        .sprite-app-phone {
+            background-position: -400px -140px;
+            width: 48px;
+            height: 52px;
+        }
+        
+        .sprite-app-add {
+            background-position: -448px -140px;
+            width: 19px;
+            height: 19px;
+        }
+        
+        @media screen and (-webkit-min-device-pixel-ratio: 1.0), screen and (min--moz-device-pixel-ratio: 1.0), screen and (-o-min-device-pixel-ratio: 100/100), screen and (min-device-pixel-ratio: 1.0), screen and (min-resolution: 1.0dppx) {
+            .sprite-app-drag,
+    .sprite-app-drag-active,
+    .sprite-app-logo,
+    .sprite-app-empty,
+    .sprite-app-phone,
+    .sprite-app-add {
+                background-image: url('../../images/sprites/app.png');
+                -webkit-background-size: 513px 380px;
+                -moz-background-size: 513px 380px;
+                background-size: 513px 380px;
+            }
+        }
+        
